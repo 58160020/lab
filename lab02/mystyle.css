@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Itim');
+
+/* Nav Bar */
+
+ul {
+    font-family: 'Permanent+Marker', cursive;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 18px;
+    font-weight: 250;
+    align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 28px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #FFDDDD;
+}
+
+
+/*Body*/
+
+body {
+    font-family: 'Itim', cursive;
+    margin: 0;
+    text-align: center;
+    background-image: url('image/bg11.jpg');
+    color: white;
+}
+
+
+/*table*/
+
+table {
+    font-family: 'Permanent+Marker', cursive;
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+    height: 420px;
+    margin: auto;
+    max-width: 900px;
+    padding: 5px;
+    width: 100%;
+    align: center;
+}
+
+td,
+th {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    color: black;
+}
+
+.tdclass1 {
+    background-color: #D0B3E1;
+    text-align: center;
+    color: white;
+}
+
+.tdclass2 {
+    background-color: #A4C8F0;
+    text-align: center;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: #FFDDDD;
+    color: white;
+}
+
+
+/* Gallery */
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    align: center;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+
+div a {
+    color: black;
+}
+
+.home {
+    height: 300px;
+    width: 300px;
+    padding: 1px;
+    position: fixed;
+    top: 50%;
+    left: 38%;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-family: 'Permanent+Marker', cursive;
+    position: fixed;
+    left: 2px;
+    bottom: 30px;
+    height: 30px;
+    width: 100%;
+}
